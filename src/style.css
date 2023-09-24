@@ -1,0 +1,40 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-shadow: none;
+}
+body, html
+{
+    overflow: hidden;
+}
+.webgl
+{
+    position: fixed;
+    top:0;
+    left:0;
+    outline: none;
+    z-index: 0;
+}
+div#sub
+{
+    display: flex;
+    width : 100%;
+    margin-bottom: 0;
+    height : 100%;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 10;
+}
+h1,h2
+{
+    font-weight: lighter;
+}
+h2
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1
+{
+    font-family: monospace;
+}
